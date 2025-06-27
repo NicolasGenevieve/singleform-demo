@@ -43,10 +43,30 @@ input:focus {
 }
 
 .register {
-  height: 45px;
   border: none;
   background-color: #5c47d3;
   border-radius: 5px;
   font-weight: bold;
   color: white;
+  padding: 15px 30px;
+}
+
+.result {
+  width: 300px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.mdp {
+  border: solid red 1px;
+}
+
+.pwd {
+  color: red;
+  margin-bottom: 20px;
 }
